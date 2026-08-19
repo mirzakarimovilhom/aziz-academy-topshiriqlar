@@ -1,18 +1,20 @@
 # Maydon hisobi
 # Kurs: Dasturlash / IT
-# Mavzu: O'rnatish va muhit — Python, interpreter, IDE sozlash
+# Mavzu: Birinchi dastur ⭐ — print() va kommentlar
 # Ball: 100
 # Aziz Academy — AI Topshiriq
 
-A = int(input())
-B = int(input())
-C = int(input())
-D = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 
 
-rem_area = (A * B) - (C * D)
-perim = 2 * (A + B)
+remaining_area = (a * b) - (c * d)
 
 
-print(rem_area)
-print(perim)
+perimeter = 2 * (a + b)
+
+
+print(remaining_area)
+print(perimeter)
