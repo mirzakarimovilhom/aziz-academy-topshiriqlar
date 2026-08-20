@@ -1,14 +1,14 @@
 # Do'kon: balans nazorati
 # Kurs: Dasturlash / IT
-# Mavzu: O'zgaruvchilar ⭐ — yaratish va nomlash qoidalari (snake_case)
+# Mavzu: Sonlar: int va float — butun va kasr sonlar
 # Ball: 100
 # Aziz Academy — AI Topshiriq
 
-b = m = 200000 
+b = m = 500000
 w = 0 
 for _ in range(int(input())):
     o = input()
     b += int(o)
-    w += o[0] == '-'
+    w += "-" in o
     m = min(m, b)
-print(b, m, w, sep='\n')
+print(b, m, w, sep="\n")
