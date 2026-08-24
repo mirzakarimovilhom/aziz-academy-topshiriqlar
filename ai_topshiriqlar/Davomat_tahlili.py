@@ -1,10 +1,13 @@
 # Davomat tahlili
 # Kurs: Dasturlash / IT
-# Mavzu: Sonlar: int va float — butun va kasr sonlar
+# Mavzu: O'zgaruvchilar ⭐ — yaratish va nomlash qoidalari (snake_case)
 # Ball: 100
 # Aziz Academy — AI Topshiriq
 
 n = int(input())
-d = input().split()
-c = d.count('1')
-print(c, max(map(len, "".join(d).split('0'))), c * 100 // n, sep='\n')
+s = input().split()
+
+
+print(s.count("1"))
+print(len(max("".join(s).split("0"), key=len)))
+print(int(s.count("1")) * 100 // n)
