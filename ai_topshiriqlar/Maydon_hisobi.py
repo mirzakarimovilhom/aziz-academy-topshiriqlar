@@ -1,6 +1,6 @@
 # Maydon hisobi
 # Kurs: Dasturlash / IT
-# Mavzu: Birinchi dastur ⭐ — print() va kommentlar
+# Mavzu: O'zgaruvchilar ⭐ — yaratish va nomlash qoidalari (snake_case)
 # Ball: 100
 # Aziz Academy — AI Topshiriq
 
@@ -10,11 +10,9 @@ c = int(input())
 d = int(input())
 
 
-remaining_area = (a * b) - (c * d)
+qolgan_yuza = (a * b) - (c * d)
+perimetr = 2 * (a + b)
 
 
-perimeter = 2 * (a + b)
-
-
-print(remaining_area)
-print(perimeter)
+print(qolgan_yuza)
+print(perimetr)
