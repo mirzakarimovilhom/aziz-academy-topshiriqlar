@@ -1,21 +1,14 @@
 # Yakuniy reyting
 # Kurs: Dasturlash / IT
-# Mavzu: Birinchi dastur ⭐ — print() va kommentlar
+# Mavzu: O'zgaruvchilar ⭐ — yaratish va nomlash qoidalari (snake_case)
 # Ball: 100
 # Aziz Academy — AI Topshiriq
 
-import sys
-
-
-d = sys.stdin.read().split()
-n = int(d[0])
-p = [(d[i], int(d[i + 1])) for i in range(1, 2 * n, 2)]
-
-
-p.sort(key=lambda x: (-x[1], x[0]))
-avg = sum(x[1] for x in p) // n 
-
-
-print(p[0][0])
-print(avg)
-print(sum(1 for x in p if x[1] > avg))
+d = [input().split() for _ in range(int(input()))]
+s = [int(b) for _, b in d]
+print(
+    min(d, key=lambda x: (int(x[1]), x[0]))[0],
+    sum(s) // len(d),
+    sum(b > sum(s) // len(d) for b in s),
+    sep="\n",
+)
