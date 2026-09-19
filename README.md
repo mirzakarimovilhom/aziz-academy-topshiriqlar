@@ -4,16 +4,16 @@
 
 ## 📊 Umumiy progress
 
-`████░░░░░░░░░░░░░░░░` **18%**  (33/179 mavzu)
+`███░░░░░░░░░░░░░░░░░` **16%**  (29/179 mavzu)
 
-- ⭐ Jami ball: **67562**
-- 📤 GitHubga yuborilgan topshiriqlar: **103**
+- ⭐ Jami ball: **67907**
+- 📤 GitHubga yuborilgan topshiriqlar: **104**
 
 ## 🎯 Qaysi mavzuga yetdingiz
 
 **MODUL 3 — Shartlar va Sikllar** → **Pattern chizish — yulduzchalar, uchburchaklar (nested loop)**
 
-➡️ Keyingi mavzu: *Filtrlash — juft sonlar, musbat sonlar ajratish*
+➡️ Keyingi mavzu: *for bilan kolleksiyalar — string/list bo'ylab yurish*
 
 <details open>
 <summary>Shu moduldagi mavzular</summary>
@@ -24,7 +24,7 @@
 - ✅ while sikli ⭐ — shartga asoslangan takrorlash
 - ✅ break va continue — sikldan chiqish va o'tkazib yuborish
 - ✅ for va range() ⭐ — ketma-ket takrorlash
-- ✅ for bilan kolleksiyalar — string/list bo'ylab yurish
+- ⬜ for bilan kolleksiyalar — string/list bo'ylab yurish
 - ✅ Pattern chizish — yulduzchalar, uchburchaklar (nested loop)  ← yetgan joyingiz
 - ⬜ Filtrlash — juft sonlar, musbat sonlar ajratish
 - ⬜ Hisoblash ⭐ — max, min, yig'indi, o'rtacha
@@ -40,9 +40,9 @@
 
 | # | Modul | Progress | Mavzular |
 |---|-------|----------|----------|
-| 1 | ✅ Asoslar | `██████████` 100% | 15/15 |
+| 1 | 🔸 Asoslar | `████████░░` 80% | 12/15 |
 | 2 | ✅ Stringlar va Formatlash | `██████████` 100% | 10/10 |
-| 3 | 🔸 Shartlar va Sikllar | `█████░░░░░` 53% | 8/15 |
+| 3 | 🔸 Shartlar va Sikllar | `█████░░░░░` 47% | 7/15 |
 | 4 | ⬜ Ma'lumot Tuzilmalari | `░░░░░░░░░░` 0% | 0/18 |
 | 5 | ⬜ Comprehensions | `░░░░░░░░░░` 0% | 0/5 |
 | 6 | ⬜ Funksiyalar | `░░░░░░░░░░` 0% | 0/12 |
@@ -63,4 +63,4 @@
 - `lms_yozma_topshiriqlari/` — yozma javoblar
 
 ---
-<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-09-17 06:39</sub>
+<sub>🤖 Aziz Academy · avtomatik yangilanadi · 2026-09-19 06:04</sub>
