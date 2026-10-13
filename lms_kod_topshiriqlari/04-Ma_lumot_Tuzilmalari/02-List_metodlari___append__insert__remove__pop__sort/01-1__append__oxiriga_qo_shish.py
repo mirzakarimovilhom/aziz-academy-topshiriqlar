@@ -1,0 +1,5 @@
+n = int(input())
+sonlar = list(map(int, input().split()))
+val = int(input())
+sonlar.append(val)
+print(sonlar)    
